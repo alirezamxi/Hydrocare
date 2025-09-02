@@ -1,0 +1,26 @@
+{
+  "seed": 505,
+  "performance_metrics": {
+    "mse": 44.27427291870117,
+    "rmse": 6.653891563415527,
+    "r2": 0.9252322912216187,
+    "rmspe": 94.92898559570312,
+    "mae": 4.749094451706985,
+    "residual_std": 6.650193032870208,
+    "residual_mean": 0.22182363806099736
+  },
+  "dataset_info": {
+    "test_samples": 145,
+    "volume_min": 1.469147920608521,
+    "volume_max": 141.6000061035156,
+    "volume_mean": 31.881994942961068,
+    "volume_std": 24.33429010920211
+  },
+  "error_analysis": {
+    "mean_absolute_error": 4.749094451706985,
+    "median_absolute_error": 3.6774826049804723,
+    "max_absolute_error": 26.17645072937011,
+    "mean_percentage_error": 29.60773575658644,
+    "error_std": 4.66051230977926
+  }
+}
