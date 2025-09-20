@@ -1,26 +1,26 @@
 {
   "seed": 505,
   "performance_metrics": {
-    "mse": 44.27427291870117,
-    "rmse": 6.653891563415527,
-    "r2": 0.9252322912216187,
-    "rmspe": 94.92898559570312,
-    "mae": 4.749094451706985,
-    "residual_std": 6.650193032870208,
-    "residual_mean": 0.22182363806099736
+    "mse": 60.702693939208984,
+    "rmse": 7.79119348526001,
+    "r2": 0.7524206638336182,
+    "rmspe": 314.05438232421875,
+    "mae": 5.789352547096951,
+    "residual_std": 7.786355596763292,
+    "residual_mean": 0.2745244868340028
   },
   "dataset_info": {
-    "test_samples": 145,
-    "volume_min": 1.469147920608521,
-    "volume_max": 141.6000061035156,
-    "volume_mean": 31.881994942961068,
-    "volume_std": 24.33429010920211
+    "test_samples": 93,
+    "volume_min": 0.800000011920929,
+    "volume_max": 73.5,
+    "volume_mean": 26.28793608052756,
+    "volume_std": 15.658379562177569
   },
   "error_analysis": {
-    "mean_absolute_error": 4.749094451706985,
-    "median_absolute_error": 3.6774826049804723,
-    "max_absolute_error": 26.17645072937011,
-    "mean_percentage_error": 29.60773575658644,
-    "error_std": 4.66051230977926
+    "mean_absolute_error": 5.789352547096951,
+    "median_absolute_error": 4.461000442504888,
+    "max_absolute_error": 28.109443664550785,
+    "mean_percentage_error": 56.97583245587422,
+    "error_std": 5.214028601622795
   }
 }

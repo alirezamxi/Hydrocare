@@ -1,6 +1,6 @@
 
 MULTI-SEED TCN MODEL COMPARISON REPORT
-Generated on: 2025-08-13 19:26:32
+Generated on: 2025-09-08 03:20:22
 
 EXPERIMENT SETUP:
 - Number of seeds tested: 10
@@ -9,18 +9,18 @@ EXPERIMENT SETUP:
 - Model architecture: TCN with 128 filters, kernel size 3, dilations [1,2,4,8,16,32,64]
 
 PERFORMANCE SUMMARY:
-- Best performing seed: 404.0 (R² = 0.9577)
-- Worst performing seed: 42.0 (R² = 0.8981)
-- Middle performing seed: 456.0 (R² = 0.9192)
+- Best performing seed: 404.0 (R² = 0.9081)
+- Worst performing seed: 303.0 (R² = 0.4769)
+- Middle performing seed: 456.0 (R² = 0.7146)
 
 STATISTICAL ANALYSIS:
-- Mean R²: 0.9271 ± 0.0221
-- R² range: 0.8981 - 0.9577
-- Coefficient of variation: 2.38%
+- Mean R²: 0.7052 ± 0.1213
+- R² range: 0.4769 - 0.9081
+- Coefficient of variation: 17.20%
 
 RECOMMENDATIONS:
 1. Use seed 404.0 for production deployment
-2. Investigate seed 42.0 for potential data issues
+2. Investigate seed 303.0 for potential data issues
 3. Consider ensemble approach using top 3-5 seeds for improved robustness
 
 All results saved in: multi_seed_results
